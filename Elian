@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akiro Catering — Elian Almeida</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #111;
+        color: #fff;
+    }
+
+    /* HERO */
+    .hero {
+        background: linear-gradient(#7a0c0c, #3b0303);
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 120px;
+        margin-bottom: 15px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .hero p {
+        margin-top: 5px;
+        letter-spacing: 3px;
+        color: #e6c1b3;
+        font-size: 16px;
+    }
+
+    /* PROFILE */
+    .profile {
+        text-align: center;
+        padding: 40px 20px;
+        background: #000;
+    }
+
+    .profile h2 {
+        font-size: 28px;
+        margin: 0;
+        letter-spacing: 2px;
+    }
+
+    .profile span {
+        color: #b30000;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .divider {
+        width: 80%;
+        height: 2px;
+        background: #b30000;
+        margin: 20px auto;
+    }
+
+    /* CONTACT BUTTONS */
+    .buttons {
+        max-width: 380px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 18px;
+        border-radius: 12px;
+        background: #1a1a1a;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        border: 1px solid #333;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #b30000;
+        border-color: #b30000;
+    }
+
+    .btn img {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* LOCATION */
+    .location {
+        text-align: center;
+        padding: 40px 20px;
+        background: #111;
+    }
+
+    .location p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        opacity: 0.8;
+    }
+
+    iframe {
+        width: 100%;
+        border: none;
+        border-radius: 12px;
+        height: 300px;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #aaa;
+        background: #0d0d0d;
+    }
+</style>
+
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <img src="TU_LOGO_AQUI.png" alt="Logo Akiro">
+    <h1>Akiro Catering</h1>
+    <p>EXPERIENCIA • CALIDAD • ELEGANCIA</p>
+</div>
+
+<!-- PROFILE SECTION -->
+<div class="profile">
+    <h2>ELIAN ALMEIDA</h2>
+    <span>PROPIETARIO</span>
+    <div class="divider"></div>
+</div>
+
+<!-- CONTACT BUTTONS -->
+<div class="buttons">
+    <a class="btn" href="https://wa.me/593983227361">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+        WhatsApp
+    </a>
+
+    <a class="btn" href="tel:+593983227361">
+        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png">
+        Llamar
+    </a>
+
+    <a class="btn" href="https://instagram.com/akiro_catering">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+        Instagram
+    </a>
+
+    <a class="btn" href="https://maps.app.goo.gl/xxxxxx">
+        <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png">
+        Ubicación
+    </a>
+</div>
+
+<!-- LOCATION -->
+<div class="location">
+    <p>Cayambe, Pichincha — Ecuador</p>
+
+    <!-- Puedes poner tu mapa real -->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Akiro Catering — Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
